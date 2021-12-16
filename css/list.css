@@ -1,0 +1,153 @@
+.container {
+    padding: 1%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+#mainBody {
+    background: radial-gradient(at 50% 0, gray, transparent 70%);
+    background-size: 100% 8px;
+    background-repeat: no-repeat;
+    min-height: calc(100vh - 115px);
+    background-color: rgb(252, 231, 252);
+}
+
+select {
+    width: 100%;
+    padding: 1% 10%;
+    height: 50px;
+    margin-top: 10px;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+
+input {
+    margin-top: 10px;
+    width: 100%;
+    padding: 1%;
+    height: 40px;
+    text-align: center;
+}
+
+input[type=submit] {
+    margin-bottom: 10px;
+}
+
+.bookingHeading h5 {
+    background-color: rgb(115, 4, 90);
+    color: white;
+    border-radius: 3px;
+    padding: 1%;
+}
+
+#filters h5 {
+    color: white;
+}
+
+.goToRoom {
+    float: right;
+}
+
+.price {
+    background-color: gray;
+    color: white;
+    padding: 8px 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.price p {
+    margin: 0 auto;
+}
+
+.row {
+    margin: 2px;
+}
+
+.info {
+    background-color: rgb(235, 235, 235);
+    padding: 8px 2px;
+    border-radius: 3px;
+}
+
+.info p {
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.itemBody {
+    border-left: 1px solid rgb(115, 4, 90);
+}
+
+.itemBody h5 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.input-group-text {
+    height: 40px;
+    margin-top: 10px;
+}
+
+#min, #max {
+    background-color: lightgray;
+    border: 2px solid orange;
+    font-size: 0.9em;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 60px;
+    background-color: white;
+}
+
+#min {
+    float: left;
+}
+
+#max {
+    float: right;
+}
+
+.resultItem {
+    border-radius: 3px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+    transition: transform .2s;
+}
+
+.resultItem:hover {
+    transform: scale(1.03);
+}
+
+#filters {
+    background-color: rgb(115, 4, 90);
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: -1px -2px 8px 0 rgba(0, 0, 0, 0.2), 1px 5px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-control[readonly] {
+    background-color: white;
+}
+
+.input-group-text {
+    margin-bottom: 10px;
+    height: 40px;
+    background-color: white;
+}
+
+.ui-widget-header {
+    background: none;
+}
